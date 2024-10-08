@@ -12,12 +12,13 @@ import ImageComponent from './Components/ImageComponent';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCloudArrowDown} from '@fortawesome/free-solid-svg-icons'; // import specific icons
+import { SRC_IMG } from './constants';
 
 
 
 const components = [
   { id: 1, label: 'Title', type: 'title', content: 'Dell' },
-  { id: 2, label: 'Image', type: 'image', src: 'https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/laptop/xps/fy24-family-launch/prod-312204-apjc-laptop-xps-16-9640-14-9440-13-9340-800x620-pl-gr.png?fmt=png-alpha&wid=800&hei=620', alt: 'Sample Image' },
+  { id: 2, label: 'Image', type: 'image', src: SRC_IMG, alt: 'Sample Image' },
   { id: 3, label: 'Price', type: 'price', price: 200 },
 ];
 
